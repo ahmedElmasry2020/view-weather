@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|El+Messiri|Hind+Siliguri|Vibes&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="libraries/weather/css/weather-icons.min.css">
+    <link rel="stylesheet" href="libraries/weather/css/weather-icons-wind.min.css">
+    <link rel="stylesheet" href="libraries/loader/loadind.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/png" href="images/icon.png">
+</head>
+
+<body>
+
+    <div class="sk-cube-grid show-hide">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+    </div>
+    <div class="background show-hide-content">
+        <div class="overlay">
+            <div class="today-temp text-center pt-5">
+                <h3 class="address"></h3>
+                <h3 class="data-Now">date Now</h3>
+                <p class="icon-Display"><i class="wi wi-day-sunny"></i></p>
+                <p class="degree">
+                    <span class="temp"></span>
+                    <span class="humidity"></span>
+                    <span class="wind-speed"></span>
+                    <span class="precip-prob"></span>
+                </p>
+                <p class="desc">desc</p>
+            </div>
+            <div class="forecast row text-center">
+                <div class="col-sm">
+                    <p class="da1-date"></p>
+                    <p class="da1-icon"></p>
+                    <p class="da1-desc"></p>
+                    <p class="da1-high-down"></p>
+                </div>
+                <div class="col-sm">
+                    <p class="da2-date"></p>
+                    <p class="da2-icon"></p>
+                    <p class="da2-desc"></p>
+                    <p class="da2-high-down"></p>
+                </div>
+                <div class="col-sm">
+                    <p class="da3-date"></p>
+                    <p class="da3-icon"></p>
+                    <p class="da3-desc"></p>
+                    <p class="da3-high-down"></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

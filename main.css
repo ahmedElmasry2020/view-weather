@@ -1,0 +1,50 @@
+/* font-family: 'Vibes', cursive;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Hind Siliguri', sans-serif; */
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size:18px; 
+
+
+}
+/* image background */
+.background{  
+    position:relative;
+    background: url(./images/sky2.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+.overlay{
+    background-color: rgba(30,30,30,.7);
+    height: 100vh
+}
+.today-temp {
+color:white;
+}
+
+/*forcast today and tomorrow*/
+.forecast{
+    margin-top:60px;
+}
+.forecast div{
+    border-right: 1px solid rgba(255,255,255,0.25);
+    color:white;
+}
+.show-hide{
+    display:block;
+    margin: 50vh auto;
+}
+.show-hide-content{
+    display: none;
+}
+/* icon customization */
+.icon{
+    font-size: 35px;
+    color:#DDD;
+}
